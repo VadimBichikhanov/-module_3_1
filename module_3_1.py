@@ -21,8 +21,8 @@ def is_contains(string, list_to_search):
 # Вызываем соответствующие функции string_info и is_contains произвольное количество раз с произвольными данными.
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
-print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN']))  # Urban ~ urBAN
-print(is_contains('cycle', ['recycling', 'cyclic']))  # No matches
+print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) 
+print(is_contains('cycle', ['recycling', 'cyclic']))  
 
 # Отображаем значения переменной вызовов на экране (на консоли)
 print(calls)
